@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <main>
-        <div class="container">
-            <div class="header">
+    <main class="main">
+        <div class="header">
                 <h2>Our Reviews</h2>
-            </div>
+        </div>
+        <article class="container">
             <div class="content">
                 <div class="profileImage">
-                    <img src="" alt="">
+                    <img src="images/Alain Flamand.jpeg" alt="" class="profile" id="personImg">
                 </div>
                 <div class="names">
                     <h3>Name</h3>
@@ -26,15 +26,19 @@
                 <div class="review">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, est quibusdam consequuntur ex, corporis voluptatibus iusto harum debitis deserunt sapiente illum officiis maxime animi dolorum natus consectetur quos ipsum! Sit!
                 </div>
-                <div class="buttons">
-                    <i class="fa-solid fa-chevron-left previous" aria-label="Previous"></i>
-                    <i class="fa-solid fa-chevron-right next" aria-label="Next"></i>
-                </div>
-                <div class="buttonSurprise">
-                    <button>Surprise me!</button>
-                </div>
             </div>
-        </div>
+            <div class="buttons">
+                <button class="prevBtn">
+                    <i class="fa-solid fa-chevron-left previous" aria-label="Previous"></i>
+                </button>
+                <button class="nextBtn">
+                    <i class="fa-solid fa-chevron-right next" aria-label="Next"></i>
+                </button>
+            </div>
+                <div class="buttonSurprise">
+                    <button class="randomBtn">Surprise me!</button>
+                </div>
+        </article>
     </main>
 <script src="scripts.js"></script>
 </body>
