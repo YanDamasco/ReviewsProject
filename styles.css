@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+}
+
+.headerText {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    color: rgb(0, 1, 53);
 }
 
 .main {
@@ -10,6 +21,10 @@ html, body {
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
+    background-image: url('images/backgroundWallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container {
@@ -18,9 +33,10 @@ html, body {
     justify-content: center;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: bisque;
+    background: linear-gradient(to right, rgba(222, 239, 252, 0.829), rgba(205, 221, 253, 0.836));
     height: 70vh;
     width: 40vw;
+    border-radius: 25px;
 }
 
 .profileImage {
@@ -33,18 +49,46 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    max-height: 10vh;
+}
+
+#author {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: rgb(0, 1, 53);
+}
+
+#job {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: rgb(25, 26, 105);
+}
+
+#review {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: rgb(25, 26, 105);
+    padding: 0px 50px;
+    line-height: 2.2vh;
 }
 
 .job {
     display: flex;
     align-items: center;
     justify-content: center;
+    max-height: 5vh;
 }
 
 .review {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    
 }
 
 .profile {
@@ -52,4 +96,55 @@ html, body {
     width: 20vh;
     border-radius: 50%;
     object-fit: cover;
+    box-shadow: 10px -8px 0px 0px rgb(25, 26, 105);
+}
+
+.randomBtn {
+    font-family: "Josefin Sans", sans-serif;
+    padding: 17px 40px;
+    cursor: pointer;
+    border: 0;
+    background-color: rgb(235, 236, 255);
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    border-radius: 50px;
+}
+
+.randomBtn:hover {
+    background-color: rgb(91, 77, 219);
+    letter-spacing: 3px;
+    box-shadow: rgb(110, 92, 216) 0px 7px 10px 0px;
+    color: hsl(0, 0%, 100%);
+}
+
+.randomBtn:active {
+    background-color: rgb(91, 77, 219);
+    letter-spacing: 3px;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+.prevBtn, .nextBtn {
+    place-items: center;
+    background: #e3edf7;
+    padding: 1.4em;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.prevBtn:hover, .nextBtn:hover  {
+    border: 1px solid rgba(0,0,0,0.1);
+    transform: translateY(0.2em);
+}
+
+.prevBtn:active, .nextBtn:active {
+    transform: translateY(5px);
+    transition: 100ms;
 }

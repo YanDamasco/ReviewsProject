@@ -4,7 +4,7 @@ const reviews = [
         name: "Alain Flamand",
         job: "Web Developer",
         img: "images/Alain Flamand.jpeg",
-        text: "I wasn’t sure what to expect at first, but the entire experience turned out to be amazing. From the moment I reached out, I was treated with respect and professionalism. Every step of the process was clearly explained, and the results were far beyond what I imagined. The team showed genuine care and delivered everything right on time. I felt supported, understood, and valued throughout. It’s rare to find service like this anymore. Truly a wonderful experience.",
+        text: "I wasn’t sure what to expect at first, but the entire experience turned out to be amazing. From the moment I reached out, I was treated with respect and professionalism. Every step of the process was clearly explained, and the results were far beyond what I imagined. The team showed genuine care and delivered everything right on time. It’s rare to find service like this anymore. Truly a wonderful experience.",
     },
     {
         id: 2,
@@ -18,7 +18,7 @@ const reviews = [
         name: "Antoine Beauchamps",
         job: "Chef",
         img: "images/Antoine Beauchamps.jpeg",
-        text: "It’s hard to describe how easy and smooth everything went. I reached out, not really expecting much, but I was pleasantly surprised by the level of service and care. Every question I had was answered quickly and thoroughly. The team was knowledgeable, kind, and truly seemed to care about doing a good job. I never once felt rushed or dismissed, which made all the difference. This experience restored a bit of my faith in customer service. Highly recommended.",
+        text: "It’s hard to describe how easy and smooth everything went. I reached out, not really expecting much, but I was pleasantly surprised by the level of service and care. Every question I had was answered quickly and thoroughly. The team was knowledgeable, kind, and truly seemed to care about doing a good job. This experience restored a bit of my faith in customer service. Highly recommended.",
     },
     {
         id: 4,
@@ -53,14 +53,14 @@ const reviews = [
         name: "Odette Lamarre",
         job: "Teacher",
         img: "images/Odette Lamarre.jpeg",
-        text: "I don’t usually leave detailed reviews, but this experience deserves recognition. I felt heard, respected, and well taken care of every step of the way. They were attentive to my needs and went above and beyond to ensure everything was perfect. Every little detail was handled with precision and care. In today’s world, where most things feel rushed or automated, this level of human touch really stands out. I’m incredibly happy with the outcome.",
+        text: "I don’t usually leave detailed reviews, but this experience deserves recognition. I felt heard, respected, and well taken care of every step of the way. They were attentive to my needs and went above and beyond to ensure everything was perfect. Every little detail was handled with precision and care. I’m incredibly happy with the outcome. I wouldn’t go anywhere else after this.",
     },
     {
         id: 9,
         name: "Thomas LeBatelier",
         job: "Photographer",
         img: "images/Thomas LeBatelier.jpeg",
-        text: "It’s not every day you come across a team that genuinely delivers more than expected. I appreciated how quickly they responded to my questions and how they stayed in touch throughout the entire process. There was never a moment of confusion or uncertainty. Everything was handled with transparency and confidence. They made sure I was comfortable with every decision. This is how it should be done, and I’m thankful I chose to work with them.",
+        text: "It’s not every day you come across a team that genuinely delivers more than expected. I appreciated how quickly they responded to my questions and how they stayed in touch throughout the entire process. Everything was handled with transparency and confidence. They made sure I was comfortable with every decision. This is how it should be done, and I’m thankful I chose to work with them.",
     },
     {
         id: 10,
